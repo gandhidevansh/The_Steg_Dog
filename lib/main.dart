@@ -73,8 +73,8 @@ class _MyHomePageState extends State<MyHomePage> {
     } else {
       final bytes = Io.File(pickedFile.path).readAsBytesSync();
       String img64 = base64Encode(bytes);
-      response = await dio.post('https://6d6f54205d67.ngrok.io/encode',
-          data: {'text': secret.text, 'img': img64});
+      response = await dio.post('URL/encode',
+          data: {'text': secret.text, 'img': img64}); //replace the URL
       if (response.statusCode == 200) {
         _base64 = response.data.toString();
         success();
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
       final bytes = Io.File(pickedFile.path).readAsBytesSync();
       String img64 = base64Encode(bytes);
       response = await dio
-          .post('https://6d6f54205d67.ngrok.io/decode', data: {'img': img64});
+          .post('URL/decode', data: {'img': img64}); //replace the URL
       if (response.statusCode == 200) {
         _base64 = response.data.toString();
         success();
