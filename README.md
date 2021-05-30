@@ -21,6 +21,7 @@ A simple image steganography flutter application based on RGB algorithm original
 ## Usage
 
 - Clone the repository.
+- pip3 install pillow, textwrap
 - Steg-Dog-Server has the server file for backend along with sample images. Example images after the processing are included inside the repository. (tron - original, encoded_image, decoded_image)
 - Other files are for flutter application, run/edit inside android studio or ide of your choice. 
 
