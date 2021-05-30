@@ -38,20 +38,28 @@ A simple image steganography flutter application based on RGB algorithm original
 
 
 ## Screen Shots
-Selecting an image along with setting the secret message for encoding
+(1) Selecting an image along with setting the secret message for encoding
+
 <img width="188" alt="Pic1" src="https://user-images.githubusercontent.com/31349598/120108079-30e22100-c181-11eb-9563-45ad1ee6a63a.png">
 
-Image Received after encoding 
+(2) Image Received after encoding 
+
 <img width="187" alt="Pic2" src="https://user-images.githubusercontent.com/31349598/120108120-64bd4680-c181-11eb-876f-636d1845b141.png">
 
-Decoded image with a secret message (The red line is made to indicate the secret message)
+(3) Decoded image with a secret message (The red line is made to indicate the secret message)
+
 <img width="184" alt="Pic3" src="https://user-images.githubusercontent.com/31349598/120108151-8ae2e680-c181-11eb-833d-16e2d140069d.png">
 
-Downloading and saving the image in the local storage
+(4) Downloading and saving the image in the local storage
+
 <img width="190" alt="Pic4" src="https://user-images.githubusercontent.com/31349598/120108183-b1a11d00-c181-11eb-8f30-b22a2501104a.png">
 
-Decoded image (magnified for better understanding)
+(5) Decoded image (magnified for better understanding)
+
 ![image](https://user-images.githubusercontent.com/31349598/120108350-6afff280-c182-11eb-95be-df6efe8806bc.png)
+
+
+**Note: The secret message is decoded in the form of the PNG image format**
 
 
 Feel free to use the code and improve it to next level :+1: 
