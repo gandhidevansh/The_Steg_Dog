@@ -50,7 +50,7 @@ A simple image steganography flutter application based on RGB algorithm original
 
 <img width="184" alt="Pic3" src="https://user-images.githubusercontent.com/31349598/120108151-8ae2e680-c181-11eb-833d-16e2d140069d.png">
 
-(4) Downloading and saving the image in the local storage
+(4) Downloading and saving the image in the local storage (Image is saved with the name Stegd.png)
 
 <img width="190" alt="Pic4" src="https://user-images.githubusercontent.com/31349598/120108183-b1a11d00-c181-11eb-8f30-b22a2501104a.png">
 
