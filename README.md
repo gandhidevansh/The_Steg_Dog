@@ -17,6 +17,13 @@ A simple image steganography flutter application based on RGB algorithm original
 - The algorithm stores the image on system and then does the processing. (This can be eliminated from code if required)
 - Sends back the image as image bytes.
 
+
+## Usage
+
+- Clone the repository.
+- Steg-Dog-Server has the server file for backend along with sample images. Example images after the processing are included inside the repository. (tron - original, encoded_image, decoded_image)
+- Other files are for flutter application, run/edit inside android studio or ide of your choice. 
+
 ## Improvements that can be done
 
 - Introducing mechanism for key generation and sharing can make the steganography way more secure. (or simply use a password for decryption for each image, this will need lots of reforming in code)
@@ -24,6 +31,5 @@ A simple image steganography flutter application based on RGB algorithm original
 - This is simple demonstration with no regard to threadings. Making the algorithm multithreaded for multiple users.
 - Including the algorithm as flutter code itself rather than using a backend if possible. This can reduce time.
 
-Example images after the processing are included inside the repository. (tron - original, encoded_image, decoded_image)
-
-Feel free to use the code and improve it to next level :+1: Happy Coding!
+Feel free to use the code and improve it to next level :+1:
+Happy Coding!
