@@ -1,7 +1,10 @@
 # The Steg Dog
+<p align="center">
+<img width="150" height="150" src="https://user-images.githubusercontent.com/31349598/120683414-37430680-c4bb-11eb-957f-e39b1df64e0a.png">
+</p>
 
 A simple image steganography flutter application based on RGB algorithm originally developed by [Pratik Mante](https://github.com/PratikMante/Image-Steganography-in-Python).
-
+ 
 ## Working
 
 ### Front-End
